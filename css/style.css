@@ -1074,7 +1074,8 @@ dd {
 
 .traveller-popover {
   position: absolute;
-  top: calc(100% + 16px);
+  top: auto;
+  bottom: calc(100% + 16px);
   right: 0;
   z-index: 60;
   width: 300px;
